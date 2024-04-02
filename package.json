@@ -1,0 +1,19 @@
+{
+  "name": "models",
+  "version": "0.0.1",
+  "description": "Models for Son of Botker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/esm && rm -rf dist/cjs && tsc && tsc --build tsconfig.cjs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tensingn/son-of-botker-models.git"
+  },
+  "author": "Nick Tensing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tensingn/son-of-botker-models/issues"
+  },
+  "homepage": "https://github.com/tensingn/son-of-botker-models#readme"
+}
