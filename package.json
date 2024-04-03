@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tensingn/son-of-botker-models/issues"
   },
-  "homepage": "https://github.com/tensingn/son-of-botker-models#readme"
+  "homepage": "https://github.com/tensingn/son-of-botker-models#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@tensingn/firebary": "^0.0.2"
+  }
 }
