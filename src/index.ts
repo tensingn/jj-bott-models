@@ -4,9 +4,12 @@ export { TeamModel } from "./models/team.model.js";
 export { PlayerGameModel } from "./models/player-game.model.js";
 
 // names
-export { NFLTeamNames } from "./names/nfl-team.names.js";
-export { PositionNames } from "./names/position.names.js";
-export { PlayerStatusNames } from "./names/player-status.names.js";
+export { NFLTeamNames, NFLTeamNamesArray } from "./names/nfl-team.names.js";
+export { PositionNames, PositionNamesArray } from "./names/position.names.js";
+export {
+	PlayerStatusNames,
+	PlayerStatusNamesArray,
+} from "./names/player-status.names.js";
 
 // sleeper models
 export { PlayerSleeperModel } from "./sleeper-models/player.sleeper.model.js";

@@ -1,4 +1,4 @@
-const nflTeamNames = [
+export const NFLTeamNamesArray = [
 	"NotSet",
 	"ARI",
 	"ATL",
@@ -33,4 +33,4 @@ const nflTeamNames = [
 	"TEN",
 	"WAS",
 ] as const;
-export type NFLTeamNames = (typeof nflTeamNames)[number];
+export type NFLTeamNames = (typeof NFLTeamNamesArray)[number];
