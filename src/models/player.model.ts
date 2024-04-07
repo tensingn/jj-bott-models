@@ -10,7 +10,7 @@ export class PlayerModel extends DatabaseObject {
 	lastName: string;
 	fullName: string;
 	team: NFLTeamNames | "NotSet";
-	position: PositionNames | "NotSet";
+	positions: PositionNames | "NotSet";
 	depthPosition: number;
 	status: PlayerStatusNames | "NotSet";
 	games: Array<PlayerGameModel>;
