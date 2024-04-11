@@ -2,6 +2,7 @@
 export { PlayerModel } from "./models/player.model.js";
 export { TeamModel } from "./models/team.model.js";
 export { PlayerGameModel } from "./models/player-game.model.js";
+export { NFLTeamModel } from "./models/nfl-team.model.js";
 
 // names
 export { NFLTeamNames, NFLTeamNamesArray } from "./names/nfl-team.names.js";
