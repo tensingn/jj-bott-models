@@ -1,6 +1,6 @@
 {
     "name": "@tensingn/son-of-botker-models",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Models for Son of Botker",
     "main": "cjs/index.js",
     "module": "esm/index.js",
@@ -22,5 +22,8 @@
     "bugs": {
       "url": "https://github.com/tensingn/son-of-botker-models/issues"
     },
-    "homepage": "https://github.com/tensingn/son-of-botker-models#readme"
+    "homepage": "https://github.com/tensingn/son-of-botker-models#readme",
+    "dependencies": {
+      "@tensingn/firebary": "^0.0.4"
+    }
   }
