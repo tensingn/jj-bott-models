@@ -1,6 +1,6 @@
 {
     "name": "@tensingn/son-of-botker-models",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Models for Son of Botker",
     "main": "cjs/index.js",
     "module": "esm/index.js",
