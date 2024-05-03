@@ -11,5 +11,4 @@ export class PlayerSleeperModel {
 	full_name: string;
 	team: NFLTeamNames;
 	espn_id: string;
-	depth_chart_position : number;
 }
