@@ -1,29 +1,29 @@
 {
-    "name": "@tensingn/son-of-botker-models",
-    "version": "0.0.13",
-    "description": "Models for Son of Botker",
-    "main": "cjs/index.js",
-    "module": "esm/index.js",
-    "sideEffects": false,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/tensingn/son-of-botker-models.git"
-    },
-    "publishConfig": {
-        "registry":"https://npm.pkg.github.com/@tensingn"
-    },
-    "files": [
-      "cjs",
-      "esm",
-      "package.json"
-    ],
-    "author": "Nick Tensing",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/tensingn/son-of-botker-models/issues"
-    },
-    "homepage": "https://github.com/tensingn/son-of-botker-models#readme",
-    "dependencies": {
-      "@tensingn/firebary": "^0.0.4"
-    }
-  }
+	"name": "@tensingn/jj-bott-models",
+	"version": "0.0.13",
+	"description": "Models for jj bott",
+	"main": "cjs/index.js",
+	"module": "esm/index.js",
+	"sideEffects": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tensingn/jj-bott-models.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@tensingn"
+	},
+	"files": [
+		"cjs",
+		"esm",
+		"package.json"
+	],
+	"author": "Nick Tensing",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tensingn/jj-bott-models/issues"
+	},
+	"homepage": "https://github.com/tensingn/jj-bott-models#readme",
+	"dependencies": {
+		"@tensingn/firebary": "^0.0.4"
+	}
+}
