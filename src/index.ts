@@ -18,3 +18,6 @@ export { PlayersSleeperModel } from "./sleeper-models/players.sleeper.model.js";
 export { RosterSettingsSleeperModel } from "./sleeper-models/roster-settings.sleeper.model.js";
 export { RosterSleeperModel } from "./sleeper-models/roster.sleeper.model.js";
 export { TeamWeekSleeperModel } from "./sleeper-models/team-week.sleeper.model.js";
+
+// constants
+export { ScoringSettings } from "./constants/scoring-settings.js";
