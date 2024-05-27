@@ -4,6 +4,7 @@ import { PlayerStatsModel } from "./player-stats.model";
 
 export class PlayerGameModel extends DatabaseObject {
 	playerID: string;
+	gameID: string;
 	points: string;
 	opponent: NFLTeamNames;
 	stats: PlayerStatsModel;
