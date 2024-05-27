@@ -1,6 +1,6 @@
 {
 	"name": "models",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"description": "Models for jj bott",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
