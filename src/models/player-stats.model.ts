@@ -33,4 +33,10 @@ export class PlayerStatsModel {
 		kickingPts: string;
 		fgPct: string;
 	};
+	Defense?: {
+		fumbles: string;
+		fumblesLost: string;
+		defensiveInterceptions: string;
+		fumblesRecovered: string;
+	};
 }
