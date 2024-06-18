@@ -6,6 +6,9 @@ export class PlayerGameModel extends DatabaseObject {
 	playerID: string;
 	gameID: string;
 	points: string;
+	team: NFLTeamNames;
 	opponent: NFLTeamNames;
 	stats: PlayerStatsModel;
+	week: string;
+	season: string;
 }
