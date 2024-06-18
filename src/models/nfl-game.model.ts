@@ -1,8 +1,9 @@
 import { DatabaseObject } from "@tensingn/firebary";
+import { NFLTeamNames } from "../names/nfl-team.names";
 
 export class NFLGameModel extends DatabaseObject {
-	teamIDHome: string;
-	teamIDAway: string;
+	awayTeamName: NFLTeamNames;
+	homeTeamName: NFLTeamNames;
 	week: string;
 	season: string;
 }
