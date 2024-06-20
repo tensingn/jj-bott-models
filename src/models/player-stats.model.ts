@@ -34,9 +34,13 @@ export class PlayerStatsModel {
 		fgPct: string;
 	};
 	Defense?: {
-		fumbles: string;
-		fumblesLost: string;
-		defensiveInterceptions: string;
-		fumblesRecovered: string;
+		fumbles?: string;
+		fumblesLost?: string;
+		defensiveInterceptions?: string;
+		fumblesRecovered?: string;
+		sacks?: string;
+		defTD?: string;
+		ydsAllowed?: string;
+		ptsAllowed?: string;
 	};
 }

@@ -1,6 +1,7 @@
 import { DatabaseObject } from "@tensingn/firebary";
 import { NFLTeamNames } from "../names/nfl-team.names";
 import { PlayerStatsModel } from "./player-stats.model";
+import { StatsRankingModel } from "./stats-ranking.model";
 
 export class PlayerGameModel extends DatabaseObject {
 	playerID: string;
@@ -9,6 +10,7 @@ export class PlayerGameModel extends DatabaseObject {
 	team: NFLTeamNames;
 	opponent: NFLTeamNames;
 	stats: PlayerStatsModel;
+	statRankings: StatsRankingModel;
 	week: string;
 	season: string;
 }
