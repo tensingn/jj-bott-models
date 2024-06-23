@@ -1,7 +1,7 @@
 export class MatchupSleeperModel {
 	starters: Array<string>;
 	players: Array<string>;
-	roster_id: string;
-	matchup_id: string;
+	roster_id: number;
+	matchup_id: number;
 	points: string;
 }

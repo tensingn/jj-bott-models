@@ -7,4 +7,5 @@ export class SeasonModel extends DatabaseObject {
 	winnerID: string;
 	winner: TeamModel;
 	season: string;
+	status: string;
 }
