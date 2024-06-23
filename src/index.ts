@@ -24,6 +24,7 @@ export { RosterSleeperModel } from "./sleeper-models/roster.sleeper.model.js";
 export { TeamWeekSleeperModel } from "./sleeper-models/team-week.sleeper.model.js";
 export { MatchupSleeperModel } from "./sleeper-models/matchup.sleeper.model.js";
 export { SeasonSleeperModel } from "./sleeper-models/season.sleeper.model.js";
+export { UserSleeperModel } from "./sleeper-models/user.sleeper.model.js";
 
 // constants
 export { ScoringSettings } from "./constants/scoring-settings.js";
