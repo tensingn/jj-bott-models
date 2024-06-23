@@ -4,7 +4,7 @@ import { PlayerModel } from "./player.model.js";
 export class TeamModel extends DatabaseObject {
 	createdDate: Date;
 	username: string;
-	displayName: string;
+	teamName: string;
 	wins: number;
 	losses: number;
 	pointsFor: number;
