@@ -10,4 +10,5 @@ export class MatchupModel extends DatabaseObject {
 	players: Array<PlayerModel>;
 	playerIDs: Array<string>;
 	points: number;
+	teamID: string;
 }
