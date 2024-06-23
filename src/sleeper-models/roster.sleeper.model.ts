@@ -6,4 +6,5 @@ export class RosterSleeperModel {
 	roster_id: number;
 	players: Array<string>;
 	owner_id: string;
+	league_id: string;
 }

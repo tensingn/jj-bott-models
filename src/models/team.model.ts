@@ -10,6 +10,10 @@ export class TeamModel extends DatabaseObject {
 	pointsFor: number;
 	pointsAgainst: number;
 	players: Array<PlayerModel>;
+	playerIDs: Array<string>;
 	starters: Array<PlayerModel>;
-	rosterId: number;
+	starterIDs: Array<string>;
+	rosterID: number;
+	userID: string;
+	seasonID: string;
 }
