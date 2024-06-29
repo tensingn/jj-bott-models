@@ -13,4 +13,5 @@ export class PlayerGameModel extends DatabaseObject {
 	statRankings: StatsRankingModel;
 	week: string;
 	season: string;
+	isHome: boolean;
 }
