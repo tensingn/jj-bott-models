@@ -42,5 +42,11 @@ export class PlayerStatsModel {
 		defTD?: string;
 		ydsAllowed?: string;
 		ptsAllowed?: string;
+		rushYdsAllowed?: string;
+		passYdsAllowed?: string;
+		rushTDsAllowed?: string;
+		passTDsAllowed?: string;
+		fgAllowed?: string;
+		xpAllowed?: string;
 	};
 }
