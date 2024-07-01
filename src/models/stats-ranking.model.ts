@@ -24,5 +24,11 @@ export class StatsRankingModel {
 		takeaways: number;
 		ydsAllowed: number;
 		ptsAllowed: number;
+		passYdsAllowed: number;
+		passTDsAllowed: number;
+		rushYdsAllowed: number;
+		rushTDsAllowed: number;
+		fgAllowed: number;
+		xpAllowed: number;
 	};
 }
