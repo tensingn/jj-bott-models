@@ -4,5 +4,5 @@ export class MatchupSleeperModel {
 	roster_id: number;
 	matchup_id: number;
 	points: string;
-	player_points: Map<string, number>;
+	players_points: Map<string, number>;
 }
